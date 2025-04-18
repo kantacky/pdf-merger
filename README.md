@@ -6,12 +6,21 @@
 
 - macOS
 - brew
+  <details>
+  <summary>インストール方法</summary>
+
   ```
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> ~/.zprofile
   eval $(/opt/homebrew/bin/brew shellenv)
   ```
+
+  </details>
+
 - pyenv
+  <details>
+  <summary>インストール方法</summary>
+
   ```
   brew update
   brew install pyenv
@@ -19,11 +28,19 @@
   echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
   echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
   ```
+
+  </details>
+
 - cmake
+  <details>
+  <summary>インストール方法</summary>
+
   ```
   brew update
   brew install cmake
   ```
+
+  </details>
 
 ## Setup
 
