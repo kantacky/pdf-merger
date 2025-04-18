@@ -61,6 +61,14 @@ make install
 
 ## How to Use
 
+### Reverse
+
+```
+make reverse IN=~/Downloads/original.pdf OUT=~/Downloads/reversed.pdf
+```
+
+### Merge
+
 ```
 make merge ODD=~/Downloads/odd.pdf EVEN=~/Downloads/even.pdf OUT=~/Downloads/merged.pdf
 ```
