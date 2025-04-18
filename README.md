@@ -5,7 +5,7 @@
 ## Prerequirement
 
 - macOS
-- brew
+- Homebrew
   <details>
   <summary>インストール方法</summary>
 
@@ -27,17 +27,28 @@
   echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
   echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
   echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
+  eval "$(pyenv init - zsh)"
   ```
 
   </details>
 
-- cmake
+- CMake
   <details>
   <summary>インストール方法</summary>
 
   ```
   brew update
   brew install cmake
+  ```
+
+  </details>
+
+- Python
+  <details>
+  <summary>インストール方法</summary>
+
+  ```
+  cat ./.python-version | xargs pyenv install
   ```
 
   </details>
